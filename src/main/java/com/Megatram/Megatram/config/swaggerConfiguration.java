@@ -12,8 +12,8 @@ public class swaggerConfiguration {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("Stock API")
+                        .title("Megatram API")
                         .version("1.0.0")
-                        .description("Documentation de l'API Stock"));
+                        .description("Documentation de l'API "));
     }
 }
